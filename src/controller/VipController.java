@@ -18,7 +18,7 @@ public class VipController {
 
     public List<Vip> init() {
 
-        List<Vip> lines = new ArrayList<>();
+        List<String> lines = new ArrayList<>();
         lines = this.fileReader.getLines();
 
         for (int i = 0; i < lines.size(); i++) {

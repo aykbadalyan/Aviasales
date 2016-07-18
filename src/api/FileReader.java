@@ -36,9 +36,9 @@ public class FileReader {
             e.printStackTrace();
         }
 
-        for (int i = 0; i < fileLines.size(); i++) {
-            System.out.println(fileLines.get(i));
-        }
+//        for (int i = 0; i < fileLines.size(); i++) {
+//            System.out.println(fileLines.get(i));
+//        }
 
         return fileLines;
     }

@@ -4,15 +4,15 @@ package models;
 public class Flight {
 
     private static int numberOfFreePlaces;
-    private String flightCode;
+    private String flightNumber;
     private String dep;
     private String arr;
     private String depTime;
     private String arrTime;
     private String cost;
 
-    public Flight(String flightCode, String dep, String arr, String depTime, String arrTime, String cost) {
-        this.flightCode = flightCode;
+    public Flight(String flightNumber, String dep, String arr, String depTime, String arrTime, String cost) {
+        this.flightNumber = flightNumber;
         this.dep = dep;
         this.arr = arr;
         this.depTime = depTime;
@@ -28,12 +28,12 @@ public class Flight {
         Flight.numberOfFreePlaces = numberOfFreePlaces;
     }
 
-    public String getFlightCode() {
-        return flightCode;
+    public String getFlightNumber() {
+        return flightNumber;
     }
 
-    public void setFlightCode(String flightCode) {
-        this.flightCode = flightCode;
+    public void setFlightNumber(String flightNumber) {
+        this.flightNumber = flightNumber;
     }
 
     public String getDep() {
