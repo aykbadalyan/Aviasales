@@ -1,6 +1,7 @@
 package com.company;
 
 import controller.CompaniesController;
+import gui.Gui;
 import models.Company;
 import models.Flight;
 
@@ -20,6 +21,8 @@ public class Main {
     private static List<Company> companiesList;
 
     public static void main(String[] args) {
+
+        Gui gui = new Gui();
 
         System.out.print("Type the location abbreviation of flight's start: ");
         String dep = scanner.next();
