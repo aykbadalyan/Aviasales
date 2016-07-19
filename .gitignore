@@ -1,3 +1,16 @@
 !.gitignore
 *.iml
 .*
+out/production/Aviasales/api/FileReader.class
+out/production/Aviasales/api/companies_data.txt
+out/production/Aviasales/api/one_way_flight_data1.txt
+out/production/Aviasales/api/return_flight_data1.txt
+out/production/Aviasales/api/vip_data1.txt
+out/production/Aviasales/com/company/Main.class
+out/production/Aviasales/controller/CompaniesController.class
+out/production/Aviasales/controller/FlightsController.class
+out/production/Aviasales/controller/VipController.class
+out/production/Aviasales/gui/Gui.class
+out/production/Aviasales/models/Company.class
+out/production/Aviasales/models/Flight.class
+out/production/Aviasales/models/Vip.class
