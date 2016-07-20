@@ -1,9 +1,13 @@
 package gui;
 
+import controller.FlightsController;
+import models.Flight;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.List;
 
 /**
  * Created by Hayk on 19.07.2016.
@@ -46,6 +50,20 @@ public class Gui extends JFrame implements ActionListener {
     private JButton searchJButton = new JButton("Search");
 
     private JPanel resultTableJPanel = new JPanel(new FlowLayout());
+
+    /*
+    * vars
+    * */
+    private final boolean VIP = true;
+    private final boolean STANDARD = false;
+    private final boolean ONE_WAY = true;
+    private final boolean TWO_WAY = false;
+    private String dep;
+    private String arr;
+    private boolean vip;
+    private boolean oneWay;
+    private FlightsController flightsController = new FlightsController("flights_list.txt");
+
 
     public Gui() {
 
@@ -123,7 +141,43 @@ public class Gui extends JFrame implements ActionListener {
 
         if (e.getSource() == searchJButton) {
 
-            System.out.println("clk");
+            logic();
+        }
+    }
+
+    private void logic() {
+
+        dep = depJTextField.getText();
+        arr = arrJTextField.getText();
+        vip = vipJRadioButton.isSelected();
+        oneWay = oneWayJRadioButton.isSelected();
+        flightsController.init();
+
+        System.out.println(dep + " arr " + arr + " vip " + vip + " oneWay " + oneWay);
+
+        if (oneWay) {
+
+        } else {
+
+            List<Flight> oneWayList = flightsController.getListByParams(dep, arr);
+            List<Flight> twoWayList = flightsController.getListByParams(arr, dep);
+
+            if (oneWayList.size() != 0 && twoWayList.size() != 0) {
+                /*
+                * twoWay
+                * */
+                System.out.println("oneWayList:");
+                for (int i = 0; i < oneWayList.size(); i++) {
+
+                    System.out.println("Number: " + oneWayList.get(i).getFlightNumber());
+                }
+
+                System.out.println("twoWayList:");
+                for (int i = 0; i < twoWayList.size(); i++) {
+
+                    System.out.println("Number: " + twoWayList.get(i).getFlightNumber());
+                }
+            }
         }
     }
 }

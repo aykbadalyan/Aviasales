@@ -10,14 +10,16 @@ public class Flight {
     private String depTime;
     private String arrTime;
     private String cost;
+    private float ticketCount;
 
-    public Flight(String flightNumber, String dep, String arr, String depTime, String arrTime, String cost) {
+    public Flight(String flightNumber, String dep, String arr, String depTime, String arrTime, String cost, float ticketCount) {
         this.flightNumber = flightNumber;
         this.dep = dep;
         this.arr = arr;
         this.depTime = depTime;
         this.arrTime = arrTime;
         this.cost = cost;
+        this.ticketCount = ticketCount;
     }
 
     public static int getNumberOfFreePlaces() {
@@ -74,5 +76,13 @@ public class Flight {
 
     public void setCost(String cost) {
         this.cost = cost;
+    }
+
+    public float getTicketCount() {
+        return ticketCount;
+    }
+
+    public void setTicketCount(float ticketCount) {
+        this.ticketCount = ticketCount;
     }
 }

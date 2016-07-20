@@ -1,0 +1,87 @@
+4910    , Moscow , Krasnodar	        , 19.07.2016 00:05 , 19.07.2016 01:55 , Air France 	                       , 356.50, 21
+4926    , Krasnodar , Moscow	    , 30.07.2016 00:05 , 30.07.2016 01:55 , Air France	                       , 356.50, 21
+4964    , Moscow , Chelyabinsk	        , 30.07.2016 00:05 , 30.07.2016 01:55 , Air France	                       , 356.50, 21
+8804    , Moscow , Krasnodar	        , 19.07.2016 00:05 , 19.07.2016 01:55 , Air Serbia	                       , 356.50, 21
+2901    , Moscow , Krasnodar	        , 19.07.2016 00:05 , 19.07.2016 01:55 , KLM—Royal Dutch Airlines	       , 356.50, 21
+2942    , Moscow , Chelyabinsk	        , 19.07.2016 00:05 , 19.07.2016 02:35 , KLM—Royal Dutch Airlines	       , 178.99, 21
+3280    , Moscow , Rostov-on-Don	    , 19.07.2016 00:05 , 19.07.2016 02:35 , KLM—Royal Dutch Airlines	       , 178.99, 21
+1112    , Moscow , Krasnodar	        , 29.07.2016 00:05 , 29.07.2016 02:35 , Aeroflot	                       , 178.99, 21
+1166    , Moscow , Rostov-on-Don	    , 29.07.2016 00:05 , 29.07.2016 02:35 , Aeroflot	                       , 178.99, 21
+1424    , Moscow , Chelyabinsk	        , 29.07.2016 00:05 , 29.07.2016 02:35 , Aeroflot	                       , 178.99, 21
+2858    , Moscow , Arkhangelsk	        , 20.07.2016 00:10 , 20.07.2016 02:30 , KLM—Royal Dutch Airlines	       , 423.38, 21
+2930    , Moscow , Baku	                , 20.07.2016 00:10 , 20.07.2016 02:30 , KLM—Royal Dutch Airlines	       , 423.38, 21
+1334    , Moscow , Arkhangelsk	        , 20.07.2016 00:10 , 20.07.2016 02:30 , Aeroflot	                       , 423.38, 21
+1852    , Moscow , Baku	                , 20.07.2016 00:10 , 20.07.2016 02:30 , Aeroflot	                       , 423.38, 21
+1948    , Moscow , Aktobe	            , 20.07.2016 00:10 , 20.07.2016 03:10 , Aeroflot	                       , 423.38, 21
+7663    , Moscow , Burgas	            , 21.07.2016 00:15 , 21.07.2016 03:45 , Pegas Fly	                       , 178.99, 21
+4912    , Moscow , Novosibirsk	        , 28.07.2016 00:20 , 28.07.2016 03:40 , Air France	                       , 178.99, 21
+3206    , Moscow , Novosibirsk	        , 28.07.2016 00:20 , 28.07.2016 03:40 , KLM—Royal Dutch Airlines	       , 343.78, 21
+1306    , Moscow , Novosibirsk	        , 28.07.2016 00:20 , 28.07.2016 03:40 , Aeroflot	                       , 343.78, 21
+4950    , Moscow , Omsk	                , 21.07.2016 00:35 , 21.07.2016 03:45 , Air France	                       , 343.78, 21
+2948    , Moscow , Omsk	                , 21.07.2016 00:35 , 21.07.2016 03:45 , KLM—Royal Dutch Airlines	       , 343.78, 21
+1638    , Moscow , Omsk	                , 21.07.2016 00:35 , 21.07.2016 03:45 , Aeroflot	                       , 343.78, 21
+1632    , Moscow , Simferopol	        , 21.07.2016 00:45 , 21.07.2016 03:45 , Aeroflot	                       , 178.99, 21
+5673    , Moscow , Barnaul	            , 22.07.2016 00:50 , 22.07.2016 02:40 , Alitalia	                       , 178.99, 21
+2866    , Moscow , Barnaul	            , 27.07.2016 00:50 , 27.07.2016 02:50 , KLM—Royal Dutch Airlines	       , 178.99, 21
+1428    , Moscow , Magnitogorsk	        , 27.07.2016 00:50 , 27.07.2016 02:10 , Aeroflot	                       , 602.24, 21
+1432    , Moscow , Barnaul	            , 27.07.2016 00:50 , 27.07.2016 02:10 , Aeroflot	                       , 602.24, 21
+0708    , Moscow , Baku-Kabul	        , 22.07.2016 00:55 , 22.07.2016 02:15 , Ariana Afghan Airlines	           , 602.24, 21
+2956    , Moscow , Yerevan	            , 22.07.2016 00:55 , 22.07.2016 02:15 , KLM—Royal Dutch Airlines	       , 602.24, 21
+1864    , Moscow , Yerevan	            , 22.07.2016 00:55 , 22.07.2016 02:15 , Aeroflot	                       , 602.24, 21
+1244    , Moscow , Orenburg	            , 22.07.2016 01:00 , 22.07.2016 02:10 , Aeroflot	                       , 178.99, 21
+4892    , Moscow , Krasnoyarsk	        , 23.07.2016 01:05 , 23.07.2016 02:15 , Air France	                       , 178.99, 21
+5651    , Moscow , Krasnoyarsk	        , 23.07.2016 01:05 , 23.07.2016 03:15 , Alitalia	                       , 593.12, 21
+3188    , Moscow , Krasnoyarsk	        , 26.07.2016 01:05 , 26.07.2016 03:15 , KLM—Royal Dutch Airlines	       , 593.12, 21
+1482    , Moscow , Krasnoyarsk	        , 26.07.2016 01:05 , 26.07.2016 03:05 , Aeroflot	                       , 593.12, 21
+4960    , Moscow , Ufa	                , 26.07.2016 01:20 , 26.07.2016 03:50 , Air France	                       , 593.12, 21
+2926    , Moscow , Ufa	                , 23.07.2016 01:20 , 23.07.2016 03:50 , KLM—Royal Dutch Airlines	       , 593.12, 21
+1234    , Moscow , Ufa	                , 23.07.2016 01:20 , 23.07.2016 03:50 , Aeroflot	                       , 178.99, 21
+1536    , Moscow , Tomsk	            , 23.07.2016 01:20 , 23.07.2016 03:50 , Aeroflot	                       , 725.32, 21
+8138    , Moscow , St.Petersburg	    , 24.07.2016 01:35 , 24.07.2016 03:55 , Air Serbia	                       , 725.32, 21
+0036    , Moscow , St.Petersburg	    , 24.07.2016 01:35 , 24.07.2016 03:55 , Aeroflot	                       , 725.32, 21
+4934    , Moscow , Perm	                , 24.07.2016 01:40 , 24.07.2016 05:50 , Air France	                       , 725.32, 21
+2922    , Moscow , Perm	                , 24.07.2016 01:40 , 24.07.2016 05:50 , KLM—Royal Dutch Airlines	       , 725.32, 21
+1218    , Moscow , Perm	                , 24.07.2016 01:40 , 24.07.2016 05:50 , Aeroflot	                       , 178.99, 21
+4978    , Moscow , Tyumen	            , 24.07.2016 01:45 , 24.07.2016 05:45 , Air France	                       , 299.63, 21
+2862    , Moscow , Tyumen	            , 24.07.2016 01:45 , 24.07.2016 05:45 , KLM—Royal Dutch Airlines	       , 299.63, 21
+1508    , Moscow , Tyumen	            , 24.07.2016 01:45 , 24.07.2016 05:45 , Aeroflot	                       , 299.63, 21
+1512    , Moscow , Surgut	            , 25.07.2016 01:45 , 25.07.2016 05:45 , Aeroflot	                       , 299.63, 21
+2906    , Moscow , Ekaterinburg	        , 25.07.2016 01:50 , 25.07.2016 05:50 , KLM—Royal Dutch Airlines	       , 299.63, 21
+1412    , Moscow , Ekaterinburg	        , 25.07.2016 01:50 , 25.07.2016 05:50 , Aeroflot	                       , 178.63, 21
+EZY4596	, Berlin , Cagliari	            , 19.07.2016 18:10 , 19.07.2016 20:30 , AirBerlin                          , 444.83, 21
+FR 199	, Berlin , Bratislava	        , 19.07.2016 18:10 , 19.07.2016 20:30 , AirBerlin                          , 444.83, 21
+D8 5954	, Berlin , Gran Canaria	        , 19.07.2016 18:15 , 19.07.2016 20:35 , Lufthansa                          , 444.83, 21
+FR 2607	, Berlin , Treviso	            , 19.07.2016 18:20 , 19.07.2016 20:30 , Lufthansa                          , 343.78, 21
+EZY4576	, Berlin , Naples	            , 19.07.2016 18:20 , 19.07.2016 20:30 , Lufthansa                          , 178.99, 21
+FR 188	, Berlin , Cologne/Bonn	        , 19.07.2016 18:40 , 19.07.2016 20:30 , Lufthansa                          , 178.99, 21
+EZY4546	, Berlin , Nice	                , 20.07.2016 19:00 , 20.07.2016 22:00 , Lufthansa                          , 178.99, 21
+FR 171	, Berlin , Athens	            , 20.07.2016 19:05 , 20.07.2016 22:05 , Lufthansa                          , 602.24, 21
+4U 042	, Berlin , Cologne/Bonn	        , 20.07.2016 19:10 , 20.07.2016 22:10 , Lufthansa                          , 602.24, 21
+DY 1108	, Berlin , Oslo	                , 20.07.2016 19:24 , 20.07.2016 22:24 , Lufthansa                          , 444.83, 21
+EZY4658	, Berlin , Venice	            , 20.07.2016 20:20 , 20.07.2016 22:20 , AirBerlin                          , 375.83, 21
+EZY4676	, Berlin , Milan    	        , 20.07.2016 20:25 , 20.07.2016 22:25 , AirBerlin                          , 444.83, 21
+FR 1135	, Berlin , Barcelona	        , 21.07.2016 20:25 , 21.07.2016 23:25 , AirBerlin                          , 444.83, 21
+W6 7739	, Berlin , Skopje	            , 21.07.2016 20:30 , 21.07.2016 23:30 , AirBerlin                          , 343.78, 21
+EZS4640	, Berlin , Basel	            , 21.07.2016 20:35 , 21.07.2016 23:35 , AirBerlin                          , 178.99, 21
+FR 2528	, Berlin , Madrid	            , 21.07.2016 20:35 , 21.07.2016 23:35 , AirBerlin                          , 178.99, 21
+EZY4504	, Berlin , Catania	            , 21.07.2016 20:40 , 21.07.2016 23:40 , AirBerlin                          , 178.99, 21
+LY 2373	, Berlin , Tel Aviv	            , 21.07.2016 20:45 , 21.07.2016 23:45 , Germanwings                        , 602.24, 21
+EZY5415	, Berlin , London   	        , 22.07.2016 20:50 , 22.07.2016 22:50 , Germanwings                        , 602.24, 21
+D8 2754	, Berlin , London   	        , 22.07.2016 21:05 , 22.07.2016 23:05 , Germanwings                        , 444.83, 21
+DL 440	, New York , Atlanta	        , 19.07.2016 05:58 , 19.07.2016 07:38 , Delta Air Lines                    , 737,84, 21
+AM 5517	, New York , Atlanta	        , 19.07.2016 05:58 , 19.07.2016 07:38 , Aeromexico	(ATL)                  , 737,84, 21
+KL 5105	, New York , Atlanta	        , 19.07.2016 05:58 , 19.07.2016 07:38 , KLM	(ATL)                          , 737,84, 21
+VS 4827	, New York , Atlanta	        , 19.07.2016 05:58 , 19.07.2016 07:38 , Virgin Atlantic	                   , 737,84, 21
+B6 18	, New York , Boston	            , 19.07.2016 06:00 , 19.07.2016 07:30 , JetBlue Airways                    , 737,84, 21
+AA 171	, New York , Los Angeles	    , 19.07.2016 05:57 , 19.07.2016 07:37 , American Airlines                  , 737,84, 21
+AS 1015	, New York , Los Angeles	    , 19.07.2016 05:57 , 19.07.2016 07:37 , Alaska Airlines                    , 737,84, 21
+BA 4310	, New York , Los Angeles	    , 19.07.2016 05:57 , 19.07.2016 07:37 , British Airways                    , 737,84, 21
+QF 3212	, New York , Los Angeles	    , 19.07.2016 05:57 , 19.07.2016 07:37 , Qantas                             , 737,84, 21
+B6 779	, New York , Montego Bay	    , 19.07.2016 06:00 , 19.07.2016 07:30 , JetBlue Airways                    , 737,84, 21
+B6 621	, New York , Nassau	            , 19.07.2016 06:00 , 19.07.2016 07:30 , JetBlue Airways                    , 737,84, 21
+B6 1835	, New York , Port Au Prince	    , 19.07.2016 06:30 , 19.07.2016 07:30 , JetBlue Airways                    , 737,84, 21
+B6 1669	, New York , Punta Cana	        , 19.07.2016 06:00 , 19.07.2016 07:30 , JetBlue Airways                    , 737,84, 21
+2D 407	, New York , Punta Cana	        , 19.07.2016 06:10 , 19.07.2016 07:30 , Dynamic Airways                    , 737,84, 21
+B6 1403	, New York , San Juan	        , 19.07.2016 06:20 , 19.07.2016 07:30 , JetBlue Airways                    , 737,84, 21
+VS 4881	, New York , Chicago	        , 19.07.2016 06:28 , 19.07.2016 07:38 , Virgin Atlantic                    , 737,84, 21
+9E 4149	, New York , Chicago	        , 19.07.2016 06:28 , 19.07.2016 07:38 , Endeavor Air                       , 737,84, 21

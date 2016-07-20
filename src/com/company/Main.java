@@ -24,7 +24,7 @@ public class Main {
 
         Gui gui = new Gui();
 
-        System.out.print("Type the location abbreviation of flight's start: ");
+        /*System.out.print("Type the location abbreviation of flight's start: ");
         String dep = scanner.next();
         System.out.println();
 
@@ -86,6 +86,6 @@ public class Main {
                             " Price: " + localFlight.getCost());
                 }
             }
-        }
+        }*/
     }
 }
