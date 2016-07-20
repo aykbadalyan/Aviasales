@@ -14,3 +14,12 @@ out/production/Aviasales/gui/Gui.class
 out/production/Aviasales/models/Company.class
 out/production/Aviasales/models/Flight.class
 out/production/Aviasales/models/Vip.class
+out/production/AviasalesProject/api/FileReader.class
+out/production/AviasalesProject/com/company/Main.class
+out/production/AviasalesProject/controller/CompaniesController.class
+out/production/AviasalesProject/controller/FlightsController.class
+out/production/AviasalesProject/controller/VipController.class
+out/production/AviasalesProject/gui/Gui.class
+out/production/AviasalesProject/models/Company.class
+out/production/AviasalesProject/models/Flight.class
+out/production/AviasalesProject/models/Vip.class
