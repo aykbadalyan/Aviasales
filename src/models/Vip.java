@@ -7,4 +7,13 @@ public class Vip {
     public Vip(String fullName) {
         this.fullName = fullName;
     }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public Vip setFullName(String fullName) {
+        this.fullName = fullName;
+        return this;
+    }
 }

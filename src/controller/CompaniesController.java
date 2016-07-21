@@ -16,23 +16,18 @@ public class CompaniesController {
 
 
     public List<Company> init() {
-
+        companiesList = new ArrayList<>();
         List<String> lines = new ArrayList<>();
         lines = fileReader.getLines();
 
         for (int i = 0; i < lines.size(); i++) {
 
             String[] array = lines.get(i).split(",");
-            String companyName = array[0];
-            String oneWayFileName = array[1].trim();
-            String returnFileName = array[2].trim();
-            String vipFileName = array[3].trim();
-
-            List<Flight> oneWayFlightList = new FlightsController(oneWayFileName).init();
-            List<Flight> returnFlightsList = new FlightsController(returnFileName).init();
+            String companyName = array[0].trim();
+            String vipFileName = array[1].trim();
             List<Vip> vipList = new VipController(vipFileName).init();
 
-            Company tempCompany = new Company(companyName, oneWayFlightList, returnFlightsList, vipList);
+            Company tempCompany = new Company(companyName, vipList);
             companiesList.add(tempCompany);
         }
 
