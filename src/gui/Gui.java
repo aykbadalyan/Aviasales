@@ -7,12 +7,17 @@ import models.Company;
 import models.Flight;
 import models.Vip;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
@@ -103,6 +108,7 @@ public class Gui extends JFrame implements ActionListener {
         setLayout(new BorderLayout());
 
         setSize(new Dimension(1600, 500));
+        setResizable(false);
 
         filterJPanel.setPreferredSize(new Dimension(400, 500));
         filterJPanel.setBackground(Color.lightGray);
@@ -145,6 +151,19 @@ public class Gui extends JFrame implements ActionListener {
 
         filterJPanel.add(typeOfTicketJPanel);
         filterJPanel.add(searchJButton);
+
+        BufferedImage myPicture = null;
+        try {
+            myPicture = ImageIO.read(new File(getClass().getResource("img/airplane.png").toURI()));
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+        }
+
+        JLabel picLabel = new JLabel(new ImageIcon(myPicture.getScaledInstance(350, 350, Image.SCALE_DEFAULT)));
+        picLabel.setSize(new Dimension(200, 200));
+        filterJPanel.add(picLabel);
 
         add(filterJPanel, BorderLayout.WEST);
 
