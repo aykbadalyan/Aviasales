@@ -23,7 +23,6 @@ public class FlightsController {
         lines = this.fileReader.getLines();
 
         for (int i = 0; i < lines.size(); i++) {
-//            002W | AAA | AAB | 12.07.2016 12:15 | 15.07.2016 12:15 | 123.43
 
             String[] array = lines.get(i).split(",");
 
@@ -32,10 +31,10 @@ public class FlightsController {
             String arr = array[2].trim();
             String depTime = array[3].trim();
             String arrTime = array[4].trim();
-            String cost = array[5].trim();
-            float ticketsCount = Float.parseFloat(array[6].trim());
+            String companyName = array[5].trim();
+            float cost = Float.parseFloat(array[6].trim());
 
-            Flight flightTemp = new Flight(flightNumber, dep, arr, depTime, arrTime, cost, ticketsCount);
+            Flight flightTemp = new Flight(flightNumber, dep, arr, depTime, arrTime, companyName, cost);
             flightList.add(flightTemp);
         }
 

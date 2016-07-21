@@ -1,1 +1,3 @@
-Aeroflot
+Aeroflot, аeroflot_vip_data.txt
+Air France, air_france_vip_data.txt
+KLM—Royal Dutch Airlines, klm_royal_dutch_airlines_vip_data.txt

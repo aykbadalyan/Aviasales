@@ -7,14 +7,14 @@ import java.util.List;
 public class Company {
 
     private String name;
-    private List<Flight> oneWayFlightList = new ArrayList<>();
-    private List<Flight> returnFlightsList = new ArrayList<>();
+//    private List<Flight> oneWayFlightList = new ArrayList<>();
+//    private List<Flight> returnFlightsList = new ArrayList<>();
     private List<Vip> vipsList = new ArrayList<>();
 
-    public Company(String name, List<Flight> oneWayFlightList, List<Flight> returnFlightsList, List<Vip> vipsList) {
+    public Company(String name, List<Vip> vipsList) {
         this.name = name;
-        this.oneWayFlightList = oneWayFlightList;
-        this.returnFlightsList = returnFlightsList;
+//        this.oneWayFlightList = oneWayFlightList;
+//        this.returnFlightsList = returnFlightsList;
         this.vipsList = vipsList;
     }
 
@@ -26,21 +26,21 @@ public class Company {
         this.name = name;
     }
 
-    public List<Flight> getOneWayFlightList() {
-        return oneWayFlightList;
-    }
-
-    public void setOneWayFlightList(List<Flight> oneWayFlightList) {
-        this.oneWayFlightList = oneWayFlightList;
-    }
-
-    public List<Flight> getReturnFlightsList() {
-        return returnFlightsList;
-    }
-
-    public void setReturnFlightsList(List<Flight> returnFlightsList) {
-        this.returnFlightsList = returnFlightsList;
-    }
+//    public List<Flight> getOneWayFlightList() {
+//        return oneWayFlightList;
+//    }
+//
+//    public void setOneWayFlightList(List<Flight> oneWayFlightList) {
+//        this.oneWayFlightList = oneWayFlightList;
+//    }
+//
+//    public List<Flight> getReturnFlightsList() {
+//        return returnFlightsList;
+//    }
+//
+//    public void setReturnFlightsList(List<Flight> returnFlightsList) {
+//        this.returnFlightsList = returnFlightsList;
+//    }
 
     public List<Vip> getVipsList() {
         return vipsList;

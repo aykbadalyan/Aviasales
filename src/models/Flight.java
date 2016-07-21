@@ -3,32 +3,25 @@ package models;
 
 public class Flight {
 
-    private static int numberOfFreePlaces;
     private String flightNumber;
     private String dep;
     private String arr;
     private String depTime;
     private String arrTime;
-    private String cost;
-    private float ticketCount;
+    private String companyName;
+    private float cost;
 
-    public Flight(String flightNumber, String dep, String arr, String depTime, String arrTime, String cost, float ticketCount) {
+
+    public Flight(String flightNumber, String dep, String arr, String depTime, String arrTime, String companyName, float cost) {
         this.flightNumber = flightNumber;
         this.dep = dep;
         this.arr = arr;
         this.depTime = depTime;
         this.arrTime = arrTime;
+        this.companyName = companyName;
         this.cost = cost;
-        this.ticketCount = ticketCount;
     }
 
-    public static int getNumberOfFreePlaces() {
-        return numberOfFreePlaces;
-    }
-
-    public static void setNumberOfFreePlaces(int numberOfFreePlaces) {
-        Flight.numberOfFreePlaces = numberOfFreePlaces;
-    }
 
     public String getFlightNumber() {
         return flightNumber;
@@ -70,19 +63,25 @@ public class Flight {
         this.arrTime = arrTime;
     }
 
-    public String getCost() {
+    public String getCompanyName() {
+        return companyName;
+    }
+
+    public Flight setCompanyName(String companyName) {
+        this.companyName = companyName;
+        return this;
+    }
+
+    public float getCost() {
         return cost;
     }
 
-    public void setCost(String cost) {
+    public void setCost(float cost) {
         this.cost = cost;
     }
 
-    public float getTicketCount() {
-        return ticketCount;
-    }
-
-    public void setTicketCount(float ticketCount) {
-        this.ticketCount = ticketCount;
+    @Override
+    public String toString() {
+        return " " + flightNumber + " | " + dep + " | " + arr + " | " + depTime + " | " + arrTime + " | " + companyName + " | " + cost;
     }
 }
